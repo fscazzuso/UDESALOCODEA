@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+}
+
+
+header {
+    background-color: #203b62;
+    color: white;
+}
+
+header a {
+    color: white;
+}
+
+a {
+    color: #2455a4;
+}
+
+Productos
+
+article {
+    background-color: white;
+    padding: 15px;
+}
+
+img {
+    width: 200px;
+    max-width: 100%;
+}
+
+
+footer {
+    background-color: #4244c1;
+    text-align: center;
+    color: #f2f2f2;
+}
