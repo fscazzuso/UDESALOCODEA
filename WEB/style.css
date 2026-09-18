@@ -1,4 +1,4 @@
-/* Estilo general de la página */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f4f7;
@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-/* Encabezado */
+
 header {
     background-color: #203b62;
     color: white;
@@ -38,7 +38,7 @@ header form {
     margin: 10px;
 }
 
-/* Menú de categorías */
+
 body > nav {
     width: 90%;
     max-width: 1200px;
@@ -62,7 +62,7 @@ a {
     color: #2455a4;
 }
 
-/* Contenido principal */
+
 main {
     width: 90%;
     max-width: 1200px;
@@ -73,7 +73,7 @@ h1, h2 {
     color: #203b62;
 }
 
-/* Lista de productos */
+
 .productos {
     display: flex;
     flex-wrap: wrap;
@@ -108,7 +108,7 @@ article a {
     border-radius: 4px;
 }
 
-/* Formularios */
+
 .cuenta {
     background-color: white;
     width: 400px;
@@ -132,13 +132,13 @@ button {
     cursor: pointer;
 }
 
-/* Imagen de la página de producto */
+
 main section > img {
     width: 350px;
     max-width: 100%;
 }
 
-/* Pie de página */
+
 footer {
     background-color: #203b62;
     color: white;
