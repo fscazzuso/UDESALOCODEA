@@ -1,55 +1,148 @@
-
+/* Estilo general de la página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    color: #333;
+    background-color: #f2f4f7;
+    color: #333333;
     margin: 0;
 }
 
-
+/* Encabezado */
 header {
     background-color: #203b62;
     color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-header a {
+header > a {
     color: white;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header nav {
+    padding: 10px;
+}
+
+header nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+header form {
+    margin: 10px;
+}
+
+/* Menú de categorías */
+body > nav {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+body > nav ul {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body > nav li {
+    margin: 7px 12px;
 }
 
 a {
     color: #2455a4;
 }
 
-
-article {
-    background-color: white;
-    padding: 15px;
+/* Contenido principal */
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
 }
 
-img {
-    width: 200px;
-    max-width: 100%;
+h1, h2 {
+    color: #203b62;
 }
 
-
-footer {
-    background-color: #4244c1;
-    text-align: center;
-    color: #f2f2f2;
-}
-
+/* Lista de productos */
 .productos {
     display: flex;
     flex-wrap: wrap;
 }
 
 .productos article {
-    width: 250px;
+    width: 220px;
     margin: 10px;
-    padding: 15px;
 }
 
-main {
-    width: 1200px;
+article {
+    background-color: white;
+    padding: 18px;
+    margin-bottom: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+}
+
+article img {
+    width: 200px;
+    height: 170px;
+    object-fit: contain;
+    display: block;
     margin: auto;
+}
+
+article a {
+    background-color: #2455a4;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* Formularios */
+.cuenta {
+    background-color: white;
+    width: 400px;
+    max-width: 90%;
+    margin: 30px auto;
+    padding: 25px;
+    border: 1px solid #dddddd;
+}
+
+input, button {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #2455a4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Imagen de la página de producto */
+main section > img {
+    width: 350px;
+    max-width: 100%;
+}
+
+/* Pie de página */
+footer {
+    background-color: #203b62;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
 }
