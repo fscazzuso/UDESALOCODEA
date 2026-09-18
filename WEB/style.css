@@ -1,7 +1,9 @@
 
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap");
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "JetBrains Mono", monospace;
     color: #dcecff;
     background: linear-gradient(to bottom right, #050d17, #10253d, #567da6);
 }
@@ -40,10 +42,14 @@ a {
 }
 
 
-body > nav, main {
-    width: 90%;
-    max-width: 1200px;
-    margin: 25px auto;
+body > nav {
+    width: 220px;
+    margin: 25px;
+    float: left;
+}
+
+main {
+    margin: 25px 25px 25px 290px;
 }
 
 body > nav ul {
@@ -51,8 +57,6 @@ body > nav ul {
     background-color: #12243a;
     border: 1px solid #6f9bc7;
     list-style: none;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 body > nav li {
@@ -113,6 +117,15 @@ main section > img {
     max-width: 100%;
 }
 
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+.banner {
+    margin: 0;
+}
+
 
 footer {
     padding: 20px;
@@ -120,4 +133,5 @@ footer {
     background-color: #08121f;
     color: white;
     text-align: center;
+    clear: both;
 }
