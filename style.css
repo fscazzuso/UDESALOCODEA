@@ -37,3 +37,14 @@ footer {
     text-align: center;
     color: #f2f2f2;
 }
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productos article {
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+}
