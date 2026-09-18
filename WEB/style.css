@@ -14,6 +14,8 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    position: sticky;
+    top: 0;
 }
 
 header > a {
@@ -61,7 +63,7 @@ h1, h2 {
     color: white;
 }
 
-/* Productos */
+
 .productos {
     display: flex;
     flex-wrap: wrap;
