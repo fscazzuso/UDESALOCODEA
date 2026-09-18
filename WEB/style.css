@@ -20,7 +20,6 @@ a {
     color: #2455a4;
 }
 
-Productos
 
 article {
     background-color: white;
@@ -37,4 +36,20 @@ footer {
     background-color: #4244c1;
     text-align: center;
     color: #f2f2f2;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productos article {
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+}
+
+main {
+    width: 1200px;
+    margin: auto;
 }
