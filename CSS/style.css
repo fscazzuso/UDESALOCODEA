@@ -140,3 +140,25 @@ footer {
     text-align: center;
     clear: both;
 }
+
+@media (max-width: 768px) {
+    .categorias {
+    
+        width: auto;
+        margin: 15px;
+    }
+
+    main {
+        margin: 15px;
+    }
+
+    .productos article {
+        width: 100%;
+        margin: 10px 0;
+        box-sizing: border-box;
+    }
+
+    .cuenta {
+        box-sizing: border-box;
+    }
+}
