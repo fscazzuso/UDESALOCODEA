@@ -9,13 +9,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&amp;family=Roboto+Mono:ital,wght@0,100..700;1,100..700&amp;display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../CSS/style.css">
-    <title>Nova Store - Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nova Store - Registro</title>
 </head>
 
 <body>
     <header>
-        <a href="index.html"><img class="logo" src="images/nova-store-logo.png" alt="Nova Store"></a>
+        <a href="index.html"><img class="logo" src="img/nova-store-logo.png" alt="Nova Store"></a>
         <nav><a href="index.html">Home</a><a href="login.html">Login</a><a href="register.html">Registro</a></nav>
         <form action="search-results.html" method="get"><label for="buscador">Buscar productos:</label><input
                 type="text" id="buscador" name="busqueda" placeholder="Ej: laptop"><button type="submit">Buscar</button>
@@ -53,14 +53,18 @@
     </nav>
     <main>
         <section class="cuenta">
-            <h1>Iniciar sesión</h1>
-            <form action="index.html" method="get">
+            <h1>Crear una cuenta</h1>
+            <form action="login.html" method="get">
                 <p><label for="email">Email:</label><input type="email" id="email" name="email" required></p>
                 <p><label for="contrasena">Contraseña:</label><input type="password" id="contrasena" name="contrasena"
                         required></p>
-                <p><button type="submit">Ingresar</button></p>
+                <p><label for="repetir-contrasena">Repetir contraseña:</label><input type="password"
+                        id="repetir-contrasena" name="repetir-contrasena" required></p>
+                <p><input type="checkbox" id="terminos" name="terminos" required><label for="terminos">Acepto términos y
+                        condiciones</label></p>
+                <p><button type="submit">Registrarme</button></p>
             </form>
-            <p><a href="register.html">No tengo cuenta</a></p>
+            <p><a href="login.html">Ya tengo una cuenta</a></p>
         </section>
     </main>
     <footer>

@@ -9,13 +9,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&amp;family=Roboto+Mono:ital,wght@0,100..700;1,100..700&amp;display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../CSS/style.css">
-    <title>Nova Store - Detalle del producto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nova Store - Login</title>
 </head>
 
 <body>
     <header>
-        <a href="index.html"><img class="logo" src="images/nova-store-logo.png" alt="Nova Store"></a>
+        <a href="index.html"><img class="logo" src="img/nova-store-logo.png" alt="Nova Store"></a>
         <nav><a href="index.html">Home</a><a href="login.html">Login</a><a href="register.html">Registro</a></nav>
         <form action="search-results.html" method="get"><label for="buscador">Buscar productos:</label><input
                 type="text" id="buscador" name="busqueda" placeholder="Ej: laptop"><button type="submit">Buscar</button>
@@ -52,42 +52,15 @@
         </ul>
     </nav>
     <main>
-        <section>
-            <h1>Laptop Pro 15</h1>
-            <img class="imagen-producto" src="images/laptop-nova.png" alt="Laptop Pro 15 plateada">
-            <p><strong>Marca:</strong> Nova Tech</p>
-            <p><strong>Descripción:</strong> Notebook con pantalla de 15 pulgadas, ideal para estudiar, trabajar y
-                realizar tareas diarias.</p>
-            <p><strong>Precio:</strong> $ 1.250.000</p>
-            <p><strong>Categoría:</strong> <a href="category.html">Laptops</a></p>
-            <p><strong>Stock:</strong> 12 unidades</p>
-            <p><strong>Tags:</strong></p>
-            <ul>
-                <li>tecnología</li>
-                <li>notebook</li>
-                <li>estudio</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Reviews de usuarios</h2>
-            <article>
-                <h3>Rating: 5 estrellas</h3>
-                <p>Muy rápida y liviana. La uso para cursar y funciona perfecto.</p>
-                <p>Fecha: 10/09/2026</p>
-                <p>Usuario: Martina G.</p>
-            </article>
-            <article>
-                <h3>Rating: 4 estrellas</h3>
-                <p>Buena computadora y muy buena pantalla.</p>
-                <p>Fecha: 08/09/2026</p>
-                <p>Usuario: Lucas R.</p>
-            </article>
-            <article>
-                <h3>Rating: 5 estrellas</h3>
-                <p>La batería dura muchas horas. La recomiendo.</p>
-                <p>Fecha: 02/09/2026</p>
-                <p>Usuario: Carla M.</p>
-            </article>
+        <section class="cuenta">
+            <h1>Iniciar sesión</h1>
+            <form action="index.html" method="get">
+                <p><label for="email">Email:</label><input type="email" id="email" name="email" required></p>
+                <p><label for="contrasena">Contraseña:</label><input type="password" id="contrasena" name="contrasena"
+                        required></p>
+                <p><button type="submit">Ingresar</button></p>
+            </form>
+            <p><a href="register.html">No tengo cuenta</a></p>
         </section>
     </main>
     <footer>
