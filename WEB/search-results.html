@@ -4,19 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&amp;family=Roboto+Mono:ital,wght@0,100..700;1,100..700&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
     <title>Nova Store - Resultados de búsqueda</title>
 </head>
 
 <body>
     <header>
-        <a href="index.html">Nova Store</a>
+        <a href="index.html"><img class="logo" src="images/nova-store-logo.png" alt="Nova Store"></a>
         <nav><a href="index.html">Home</a><a href="login.html">Login</a><a href="register.html">Registro</a></nav>
         <form action="search-results.html" method="get"><label for="buscador">Buscar productos:</label><input
                 type="text" id="buscador" name="busqueda" placeholder="Ej: laptop"><button type="submit">Buscar</button>
         </form>
+
     </header>
-    <nav>
+    <nav class="categorias">
         <h2>Categorías</h2>
         <ul>
             <li><a href="category.html">Beauty</a></li>

@@ -1,12 +1,26 @@
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap");
-
 body {
     margin: 0;
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Roboto Mono", monospace;
     color: #dcecff;
     background: linear-gradient(to bottom right, #050d17, #10253d, #567da6);
 }
 
+button {
+    font-family: inherit;
+    padding: 8px;
+    margin: 5px;
+    padding: 8px 12px;
+    background-color: #9dcaff;
+    color: #08121f;
+    border: none;
+    text-decoration: none;
+}
+
+input {
+    font-family: inherit;
+    padding: 8px;
+    margin: 5px;
+}
 
 header {
     padding: 20px;
@@ -19,14 +33,11 @@ header {
     top: 0;
 }
 
-header>a {
+.logo {
     width: 220px;
     height: 85px;
-    background-image: url("images/nova-store-logo.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-size: 0;
+    object-fit: contain;
+    display: block;
 }
 
 header a {
@@ -41,7 +52,7 @@ a {
 }
 
 
-body>nav {
+.categorias {
     width: 220px;
     margin: 25px;
     float: left;
@@ -51,22 +62,24 @@ main {
     margin: 25px 25px 25px 290px;
 }
 
-body>nav ul {
+.categorias ul {
     padding: 15px;
     background-color: #12243a;
     border: 1px solid #6f9bc7;
     list-style: none;
 }
 
-body>nav li {
+.categorias li {
     margin: 8px 12px;
 }
 
-h1,
-h2 {
+h1 {
     color: white;
 }
 
+h2 {
+    color: white;
+}
 
 .productos {
     display: flex;
@@ -90,8 +103,7 @@ article img {
     object-fit: cover;
 }
 
-article a,
-button {
+article a {
     padding: 8px 12px;
     background-color: #9dcaff;
     color: #08121f;
@@ -108,13 +120,9 @@ button {
     background-color: #152a43;
 }
 
-input,
-button {
-    padding: 8px;
-    margin: 5px;
-}
 
-main section>img {
+
+.imagen-producto {
     width: 350px;
     max-width: 100%;
 }
